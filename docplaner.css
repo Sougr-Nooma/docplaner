@@ -1,0 +1,412 @@
+
+.header{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+    padding: 0 20px;
+}
+
+.header img{
+    width: 268px;
+    height: 33px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+    gap: 30px;
+    font-weight: 400px;
+}
+.header-nav a:first-child{
+    color: #00b39b;
+}
+.header-nav a{
+    text-decoration: none;
+    color: grey;
+}
+
+.header-nav a:hover{
+    color: #00b39b;
+}
+.dropdown button{
+    background-color: transparent;
+    color: grey;
+    border: 0;
+    position: relative;
+}
+.dropdown button a:hover{
+    color: #00b39b; 
+}
+.dropdown div{
+    position: absolute;
+    left: 100px;
+}
+.butt{
+    background-color: transparent;
+    border: 0;
+    color: grey ;
+}
+.object{
+    padding: 0 20px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.object img{
+    width: 40px;
+    height: 39px;
+}
+.object_paragraphe{
+    display: flex;
+    padding: 0 10vw;
+    gap: 2vw;
+}
+.object h1{
+    color: #00b39b;
+    font-size: 30px;
+    font-weight: 600px;
+}
+.object p{
+color: rgb(128, 128, 128);
+font-weight: 600px;
+}
+.object p::selection{
+    background-color: aqua;
+    color: white;
+}
+
+
+.contact_us{
+    width: 25%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    margin: 60 26 40 26;
+}
+.contact_us image{
+    width: 24px; 
+ }
+.contact_us h1{
+    font-size: 26px;
+}
+.sickness{
+    background-color: #00b39b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw;
+    border-radius: 15px;
+    outline: none;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 24px;
+}
+
+.contact_us select{
+    background-color: transparent;
+    border: 0px;
+    color: white;
+}
+.contact_us select option{
+    color: black;
+}
+.doctors{
+    background-color: #194ddb;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw;
+    border-radius: 15px;
+    outline: none;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 24px;
+}
+.center{
+    background-color: #3f3f3f;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding: 2vw;
+    border-radius: 15px;
+    outline: none;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 24px;
+}
+
+.filial{
+    margin: 40px 0;
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+    gap: 20px;
+}
+.filial p{
+    margin: 30px 0;
+    width: 23%;
+    height: auto;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 26px;
+    padding: 0 26px 0 0;
+}
+.filial p::selection{
+    background-color: aqua;
+    color: white;
+    width: 13%;
+}
+.filial div{
+    width: 560px;
+    height: 109px;
+    display: flex;
+    align-items: flex-end;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+svg{
+    width: 120px;
+}
+svg path{
+    fill: grey;
+}
+svg path:hover{
+    fill: #00b39b;
+}
+a img{
+    width: 72px;
+    height: 34px;
+    fill: grey;
+}
+
+.filial div a:hover{
+color: #00b39b;
+}
+.filial div a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.communauty{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    background-image: url("C:\Users\hp\Desktop\GOMYCODE\IMAGE\logo.png");
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-position: left 250px;
+}
+.communauty h2{
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;;
+}
+.communauty p::selection{
+    background-color: #00b39b;
+    color: white;
+}
+.communauty p{
+    font-family: Roboto,Arial,sans-serif;
+}
+.communauty h2::selection{
+    color: #00b39b;
+}
+.left{
+    width: 50%;
+    padding: 10px;
+}
+.right{
+
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    gap: 2vw;
+}
+
+.localisation-malade{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2vw;
+}
+.localisation{
+    display: inline-block;
+    text-align: center;
+    width: 250px;
+    flex-direction: column;
+    background-color: white;
+
+    padding: 15px;
+
+    align-items: center;
+    gap: 1vw;
+} 
+.localisation img{
+    width: 38px;
+    height: 40px;
+}
+.localisation p{
+    font-family: Roboto,Arial,sans-serif;;
+}
+.malade{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.rdv-doctor{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 2vw;
+    
+}
+.rdv{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    align-items: center;
+    gap: 1vw;
+}
+.rdv img{
+    width: 38px;
+    height: 40px;
+}
+
+.doctor{
+    display: flex;
+    width: 250px;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    align-items: center;
+    gap: 1vw;
+}
+.doctor img{
+    width: 38px;
+    height: 40px;
+}
+
+
+.localite1{
+    margin: 88px 167px;
+    padding: 0 15px;
+}
+
+.niveau1{
+    display: flex;
+    justify-content: center;
+}
+.philosofie{
+    justify-content: center;
+}
+.philosofie h2{
+    color: #00b39b;
+    width: 470px;
+    text-align: center;
+    margin: auto;
+    font-family: Work Sans,Arial,sans-serif;;
+}
+.philosofie p{
+    width: 470px;
+    margin: 20px 0px;
+    text-align: center;
+    font-family: Roboto,Arial,sans-serif;;
+    font-weight: 400;
+}
+.philosofie p::selection{
+    background-color: #00b39b;
+    color: #ffffff;
+}
+.niveau2{
+    display: flex;
+    justify-content: flex-start;
+}
+.niveau2 input{
+    background-color: #436cdf;
+}
+
+.villes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.villes span p{
+    margin: 0;
+    padding: 15px;
+    gap: 3Opx;
+}
+.villes span p input{
+    display: inline-block;
+    text-align: left;
+}
+
+
+.localite2{
+    display: flex;
+    justify-content: center;
+    margin: 88px 167px;
+    padding: 0 15px;
+}
+.localite2 button{
+    background-color: rgb(81, 81, 238);
+}
+.localite2 div{
+    width: 520px;
+    height: 142px;
+    text-align: center;
+}
+.localite2 div p{
+    margin-bottom: 20px;
+    height: 78px;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+}
+.conlusion::selection{
+    background-color: #00b39b;
+    color: white;
+}
+footer{
+    display: inline-block;
+    justify-content: center;
+    margin: 0 167px;
+    padding: 15px 0;
+}
+.conlusion{
+    margin: 0 167px;
+    display: inline;
+    text-align: center;
+    font-size: 13px;
+}
+.conlusion span{
+    text-align: center;
+}
+.footer-nav{
+    text-align: center;
+    margin: 10px 5px 0;
+    font-weight: 400;
+}
+footer div p{
+    margin: 10px 5px 0;
+    font-weight: 400;
+    text-align: center;
+}
